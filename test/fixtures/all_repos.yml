@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/tjalil
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 15 Sep 2015 14:58:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '50'
+      X-Ratelimit-Reset:
+      - '1442331356'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 14 Sep 2015 18:49:20 GMT
+      Etag:
+      - W/"abe935e9017cfef15ee5d789a40c9606"
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - CEDFB109:C025:33DC795:55F83221
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 8a5c38021a5cd7cef7b8f49a296fee40
+    body:
+      encoding: UTF-8
+      string: '{"login":"tjalil","id":3508170,"avatar_url":"https://avatars.githubusercontent.com/u/3508170?v=3","gravatar_id":"","url":"https://api.github.com/users/tjalil","html_url":"https://github.com/tjalil","followers_url":"https://api.github.com/users/tjalil/followers","following_url":"https://api.github.com/users/tjalil/following{/other_user}","gists_url":"https://api.github.com/users/tjalil/gists{/gist_id}","starred_url":"https://api.github.com/users/tjalil/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/tjalil/subscriptions","organizations_url":"https://api.github.com/users/tjalil/orgs","repos_url":"https://api.github.com/users/tjalil/repos","events_url":"https://api.github.com/users/tjalil/events{/privacy}","received_events_url":"https://api.github.com/users/tjalil/received_events","type":"User","site_admin":false,"name":"Taha
+        Jalil","company":"Filament Creative, Pakathon","blog":null,"location":"Toronto,
+        Ontario","email":null,"hireable":true,"bio":null,"public_repos":29,"public_gists":0,"followers":11,"following":14,"created_at":"2013-02-08T04:50:53Z","updated_at":"2015-09-14T18:49:20Z"}'
+    http_version: 
+  recorded_at: Tue, 15 Sep 2015 14:58:41 GMT
+recorded_with: VCR 2.9.3
